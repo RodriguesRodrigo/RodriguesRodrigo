@@ -1,16 +1,19 @@
-### Hi there 👋
+# Hi! My name is Rodrigo :coffee:
 
-<!--
-**RodriguesRodrigo/RodriguesRodrigo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+from flask import Flask
 
-Here are some ideas to get you started:
+app = flask(__name__)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+@app.route('/')
+def home():
+    return {
+        'name': 'Rodrigo Rodrigues Scotti',
+        'email': 'rrscotti@hotmail.com',
+        'working': 'Canopus Tecnologia & Inovação',
+        'detail': 'I love coffee',
+
+if __name__ == '__main__':
+        app.run()
+```
