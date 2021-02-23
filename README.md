@@ -13,6 +13,7 @@ def home():
         'email': 'rrscotti@hotmail.com',
         'working': 'Canopus Tecnologia & Inovação',
         'detail': 'I love coffee',
+    }
 
 if __name__ == '__main__':
         app.run()
