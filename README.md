@@ -11,7 +11,6 @@ def home():
     return {
         'name': 'Rodrigo Rodrigues Scotti',
         'email': 'rrscotti@hotmail.com',
-        'working': 'Canopus Tecnologia & Inovação',
         'detail': 'I love coffee',
     }
 
