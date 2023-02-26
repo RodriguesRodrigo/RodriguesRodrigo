@@ -1,19 +1,5 @@
-# Hi! My name is Rodrigo :coffee:
+# Hi there 👋
 
-```python
-from flask import Flask
+I'm a software developer. I currently work with python and javascript languages. I really enjoy studying software architecture and infrastructure.
 
-app = Flask(__name__)
-
-
-@app.route('/')
-def home():
-    return {
-        'name': 'Rodrigo Rodrigues Scotti',
-        'email': 'rrscotti@hotmail.com',
-        'detail': 'I love coffee',
-    }
-
-if __name__ == '__main__':
-    app.run(port=5000)
-```
+You can find me on [Linkedin](https://www.linkedin.com/in/rodrigo-rodrigues-scotti/)
